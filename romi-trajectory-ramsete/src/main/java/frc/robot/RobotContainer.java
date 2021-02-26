@@ -101,11 +101,14 @@ public class RobotContainer {
         // Start at the origin facing the +X direction
         new Pose2d(0, 0, new Rotation2d(0)),
         List.of(
-            new Translation2d(0.5, 0.25),
-            new Translation2d(1.0, -0.25),
-            new Translation2d(1.5, 0)
+            new Translation2d(0.35, 0.07),
+            new Translation2d(0.47, 0.41),
+            new Translation2d(0.20, 0.40),
+            new Translation2d(0,0.29),
+            new Translation2d(-0.20, 0.35),
+            new Translation2d(-0.12,0.6)
         ),
-        new Pose2d(0.0, 0, new Rotation2d(Math.PI)),
+        new Pose2d(0.16, 0.64, Rotation2d.fromDegrees(0)),
         config);
 
     RamseteCommand ramseteCommand = new RamseteCommand(
